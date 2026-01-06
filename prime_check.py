@@ -1,13 +1,13 @@
 #write a python function to check if a number is prime
 
-n=11
+n=int(input('Enter a number'))
 
 if n <=1:
-    print(False)
+    print('not prime')
 else:
-    is_prime = True
     for i in range(2, int(n**0.5)+1):
         if n %i ==0:
-            is_prime = False
+            print('Not prime')
             break
-    print(is_prime)
+    else:
+        print("Prime number")

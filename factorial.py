@@ -1,7 +1,14 @@
 #write a program to calculate the factorial of a number
 
-def factorial(n):
+"""def factorial(n):
     if n ==0:
         return 1
     return n * factorial(n-1)
-print(factorial(4))
+print(factorial(4))"""
+
+n = int(input('Enter a number'))
+fact = 1
+
+for i in range(1,n+1):
+    fact *=i
+print("Factorial:", fact)
