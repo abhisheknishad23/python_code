@@ -1,3 +1,4 @@
+#what is output and  why 
 def add_item(item, lst=[]):
     lst.append(item)
 
