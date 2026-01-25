@@ -1,3 +1,8 @@
+"""
+in - True/False
+not in - oppsite
+"""
+
 email = 'abhiZgmail.com'
 
 if '@' in email:
