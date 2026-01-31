@@ -1,0 +1,5 @@
+file =open('d:/python_code/file_handling/file2.txt','w')
+content = input('write anythings: ')
+file.write(content)
+print('data saved successfully')
+file.close()
